@@ -1,0 +1,29 @@
+{
+  "name": "tf-tpl-loader",
+  "version": "0.1.4",
+  "dependencies": {
+    "loader-utils": "^0.2.7",
+    "lodash": "^3.6.0"
+  },
+  "scripts": {
+    "postpublish": "git add . && git commit -m \"$npm_package_version\" && git push origin master"
+  },
+  "keywords": [
+    "underscore",
+    "lodash",
+    "_",
+    "webpack",
+    "loader",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/newchen/tf-tpl-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newchen/tf-tpl-loader/issues"
+  },
+  "homepage": "https://github.com/newchen/tf-tpl-loader",
+  "license": "MIT",
+  "main": "index.js"
+}
